@@ -1,4 +1,4 @@
-# Java_SampleCode5
+# JavaSampleCode5
 税込み金額の計算
 
 #### 処理
