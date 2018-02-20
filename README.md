@@ -8,24 +8,24 @@
 ```  
 public class sample5 {
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		int price = 6500;
-		System.out.println("定価：" + price + "円");
+    int price = 6500;
+    System.out.println("定価：" + price + "円");
 
-		int discountPrice = (int)(price * 0.85);
-		System.out.println("割引価格は、" + discountPrice + "円です。");
+    int discountPrice = (int)(price * 0.85);
+    System.out.println("割引価格は、" + discountPrice + "円です。");
 
-		int amount = (int)(discountPrice * 1.08);
-		System.out.println("税込み金額は、" + amount + "円です。");
+    int amount = (int)(discountPrice * 1.08);
+    System.out.println("税込み金額は、" + amount + "円です。");
 
-		int person = 5;
-		System.out.println("人数が、" + person + "人の場合。");
+    int person = 5;
+    System.out.println("人数が、" + person + "人の場合。");
 
-		int amountPerPerson = amount / person;
-		int remainder = amount % person;
-		System.out.println("一人当たり" + amountPerPerson + "円、余り" + remainder + "円です。");
-	}
+    int amountPerPerson = amount / person;
+    int remainder = amount % person;
+    System.out.println("一人当たり" + amountPerPerson + "円、余り" + remainder + "円です。");
+  }
 
 }
 ```  
@@ -42,5 +42,5 @@ public class sample5 {
 ## 開発環境
 | 開発ツール |  |
 |:-|:-|
-| 統合開発環境(IDE)： | Eclipse 4.7.0 Oxygen |
-| 開発言語： | Java8 |
+| 統合開発環境(IDE) | Eclipse 4.7.0 Oxygen |
+| 開発言語 | Java8 |
